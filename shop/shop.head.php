@@ -30,7 +30,7 @@ add_stylesheet('<link rel="stylesheet" href="'.G5_THEME_JS_URL.'/owl.carousel.cs
     
     <div id="hd_wrapper">
     	<div id="hd_wr">
-	        <div id="logo"><a href="<?php echo G5_SHOP_URL; ?>/"><img src="<?php echo G5_THEME_IMG_URL ?>/logo.png" alt="<?php echo $config['cf_title']; ?>"></a></div>
+	        <div id="logo"><a href="<?php echo G5_SHOP_URL; ?>/"><img src="<?php echo G5_THEME_IMG_URL ?>/shop_logo.png" alt="<?php echo $config['cf_title']; ?>"></a></div>
 	        <fieldset id="hd_sch">
 	            <legend>쇼핑몰 전체검색</legend>
 	            <form name="frmsearch1" action="<?php echo G5_SHOP_URL; ?>/search.php" onsubmit="return search_submit(this);">
